@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Suratha Tamil Font Converter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_suratha_converter">SurathaConverter</string>
+    <string name="bamini">Bamini</string>
+    <string name="tscii">TSCII</string>
+    <string name="anjal">Anjal</string>
+    <string name="tab">TAB</string>
+    <string name="tam">TAM</string>
+    <string name="clear">Clear</string>
+    <string name="load">Load</string>
+    <string name="copy">Copy</string>
+    <string name="back">Go Back</string>
+    <string name="controls">Controls</string>
+    <string name="source_font">Source Font</string>
+    <string name="title_activity_display_output">DisplayOutputActivity</string>
+
+</resources>

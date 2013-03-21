@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/EditText1"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="7"
+            android:inputType="textMultiLine" 
+            android:gravity="top"
+            >
+
+            <requestFocus />
+        </EditText>
+
+         <ScrollView
+                  android:id="@+id/scrollView1"
+                  android:layout_width="0dip"
+                  android:layout_height="match_parent"
+                  android:layout_weight="2" >
+        
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+            
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="0"
+               android:gravity="center"
+               android:text="@string/controls" />
+            
+            <Button
+            android:id="@+id/LoadButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/load" />
+            
+            <Button
+            android:id="@+id/CopyButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/copy" />
+           
+           <Button
+            android:id="@+id/ClearButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/clear" />
+           
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="0"
+               android:gravity="center"
+               android:text="@string/source_font" />
+           
+              <Button
+            android:id="@+id/BaminiButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/bamini" />
+              
+              <Button
+            android:id="@+id/TsciiButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/tscii" />
+              
+              <Button
+            android:id="@+id/TabButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/tab" />
+              
+              <Button
+            android:id="@+id/TamButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/tam" />
+              
+              <Button
+            android:id="@+id/AnjalButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/anjal" />
+
+              
+            
+        </LinearLayout>
+
+      </ScrollView>
+
+    </LinearLayout>
